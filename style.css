@@ -47,3 +47,102 @@ tr:nth-child(even) {
     font-weight: bold;
 }
 
+.user-form {
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background-color: #f9fafb;
+}
+
+.user-form h2 {
+    margin-top: 0;
+    color: #111827;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #d1d5db;
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 16px;
+    border-radius: 6px;
+    border: none;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.btn.small {
+    padding: 6px 12px;
+}
+
+.btn.primary {
+    background-color: #2563eb;
+    color: #fff;
+}
+
+.btn.secondary {
+    background-color: #9ca3af;
+    color: #fff;
+}
+
+.btn.danger {
+    background-color: #dc2626;
+    color: #fff;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.actions {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.inline-form {
+    display: inline;
+}
+
+.feedback {
+    margin-top: 20px;
+    padding: 12px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.feedback.success {
+    background-color: #dcfce7;
+    color: #15803d;
+}
+
+.feedback.error {
+    background-color: #fee2e2;
+    color: #b91c1c;
+}
